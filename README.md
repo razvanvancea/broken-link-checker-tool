@@ -19,7 +19,7 @@ npm install
 
 
 ```sh
-npx blc https://razvanvancea.ro -r
+npx blc https://razvanvancea.ro
 ```
 
 -- scan links recursively in the entire project (current page, other pages and subpages) --
