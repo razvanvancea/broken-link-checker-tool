@@ -15,14 +15,14 @@ npm install
 
 ## RUN
 
--- scan only the links in the current page --
+-- scan only the links on the current page --
 
 
 ```sh
 npx blc https://qa-practice.netlify.app
 ```
 
--- scan links recursively in the entire project (current page, other pages and subpages) --
+-- scan links recursively in the entire project (current page, other pages, and subpages) --
 
 ```sh
 npx blc https://qa-practice.netlify.app -ro
