@@ -1,6 +1,6 @@
 # broken-link-checker-tool
 
-This is a tool that scans a website, pointing out broken links, missing images and so on.
+This is a tool that scans a web applications, pointing out broken links, missing images and so on.
 
 ## Prerequisites
 
