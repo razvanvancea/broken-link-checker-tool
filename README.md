@@ -15,14 +15,15 @@ npm install
 
 -- scan only the links in the current page --
 
-npx blc https://razvanvancea.ro -r --exclude-external  
+npx blc https://razvanvancea.ro -r
 
 -- scan links recursively in the entire project (current page, other pages and subpages) --
 
-npx blc https://razvanvancea.ro -ro --exclude-external  
+npx blc https://razvanvancea.ro -ro
 
 
 -- exclude external domains --
+
 npx blc https://razvanvancea.ro -ro --exclude-external  
 
 
