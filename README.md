@@ -1,4 +1,4 @@
-# broken-link-checker-tool - 
+# broken-link-checker-tool
 
 This is a tool that scans a website, pointing out broken links
 
