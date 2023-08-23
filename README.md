@@ -19,27 +19,27 @@ npm install
 
 
 ```sh
-npx blc https://razvanvancea.ro
+npx blc https://qa-practice.netlify.app
 ```
 
 -- scan links recursively in the entire project (current page, other pages and subpages) --
 
 ```sh
-npx blc https://razvanvancea.ro -ro
+npx blc https://qa-practice.netlify.app -ro
 ```
 
 
 -- exclude external domains --
 
 ```sh
-npx blc https://razvanvancea.ro -ro --exclude-external  
+npx blc https://qa-practice.netlify.app -ro --exclude-external  
 ```
 
 
 -- exclude specific domain URLs (e.g. Twitter and LinkedIn) -- 
 
 ```sh
-npx blc https://razvanvancea.ro -ro --exclude twitter --exclude linkedin  
+npx blc https://qa-practice.netlify.app -ro --exclude twitter --exclude linkedin  
 ```
 
 ### HELP
