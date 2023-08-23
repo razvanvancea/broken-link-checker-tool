@@ -15,28 +15,28 @@ npm install
 
 ## RUN
 
--- scan only the links on the current page --
+* scan only the links on the current page
 
 
 ```sh
 npx blc https://qa-practice.netlify.app
 ```
 
--- scan links recursively in the entire project (current page, other pages, and subpages) --
+* scan links recursively in the entire project (current page, other pages, and subpages)
 
 ```sh
 npx blc https://qa-practice.netlify.app -ro
 ```
 
 
--- exclude external domains --
+* exclude external domains
 
 ```sh
 npx blc https://qa-practice.netlify.app -ro --exclude-external  
 ```
 
 
--- exclude specific domain URLs (e.g. Twitter and LinkedIn) -- 
+* exclude specific domain URLs (e.g. Twitter and LinkedIn)
 
 ```sh
 npx blc https://qa-practice.netlify.app -ro --exclude twitter --exclude linkedin  
