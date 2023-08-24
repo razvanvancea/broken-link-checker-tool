@@ -32,7 +32,7 @@ npx blc https://qa-practice.netlify.app -ro
 * exclude external domains
 
 ```sh
-npx blc https://qa-practice.netlify.app -ro --exclude-external  
+npx blc https://qa-practice.netlify.app -ro -e
 ```
 
 
