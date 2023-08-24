@@ -22,17 +22,17 @@ npm install
 npx blc https://qa-practice.netlify.app
 ```
 
-* scan links recursively in the entire project (current page, other pages, and subpages)
+* scan links recursively in the entire project (current page, other pages, and subpages) (by adding -ro flag)
 
 ```sh
 npx blc https://qa-practice.netlify.app -ro
 ```
 
 
-* exclude external domains
+* exclude external domains (by adding -e flag)
 
 ```sh
-npx blc https://qa-practice.netlify.app -ro -e
+npx blc https://qa-practice.netlify.app -roe
 ```
 
 
